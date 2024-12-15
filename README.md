@@ -26,20 +26,20 @@ python pa4.py numbers.csv duplicates.csv
 # Input File Format
 The input file should be a CSV where each row contains a single integer. For example:
 
-5
-3
-5
-7
-3
-7
-7
+5 <br />
+3 <br />
+5 <br />
+7 <br />
+3 <br />
+7 <br />
+7 <br />
 
 # Output File Format
 The output file will be a CSV where each row contains a number and its count, sorted by count in descending order. For example, given the input above, the output would look like this:
 
-7,3
-5,2
-3,2
+7,3<br />
+5,2<br />
+3,2<br />
 # Script Breakdown
 Functions
 process_input(input_filename, output_filename)
